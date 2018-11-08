@@ -39,7 +39,7 @@ namespace jack.Functions
         {
             var Service = new YouTubeService(new BaseClientService.Initializer
             {
-                ApiKey = "AIzaSyDlZbYkccEGXaKIidM_AM2rCM5O1wmU6pk"
+                ApiKey = aaaaaa
             });
             var SearchRequest = Service.Search.List("snippet");
             SearchRequest.Q = Search;
